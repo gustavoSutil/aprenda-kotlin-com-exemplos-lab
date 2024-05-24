@@ -38,8 +38,7 @@ class Formacao(val nome: String, val nivel: Nivel, vararg conteudos: ConteudoEdu
 }
 
 class Testes {
-    
-    
+
     init{
 		
         var error : Int = 0;
@@ -76,7 +75,6 @@ class Testes {
             false
         }
     }
-    
     
     private fun criarFormacao() : Boolean{
         return try {
